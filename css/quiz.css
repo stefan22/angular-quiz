@@ -75,7 +75,7 @@ body { background-color: #fff; padding: 20px; }
 	width: 550px;
 	position: absolute;
 	top: 225px;
-	left: 40px;
+	left: 660px;
 }
 
 #myQuiz .question .txt {
@@ -134,3 +134,26 @@ body { background-color: #fff; padding: 20px; }
 	cursor: default;
 }
 
+/* feedback */
+
+#myQuiz .feedback {
+	color: #efbe53;
+	margin-top: 10px;
+	transition:opacity 1.5s, margin-top 1.5s;
+	visibility: hidden;
+	opacity: 0;
+}
+
+#myQuiz .feedback .btn {
+	margin-top: 5px;
+}
+
+#myQuiz .feedback strong {
+	color:#fff;
+}
+
+#myQuiz .answered .feedback {
+	visibility: visible;
+	opacity: 1;
+	margin-top: 10px;
+}
