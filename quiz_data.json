@@ -2,7 +2,7 @@
 	{
 
 		"question" : "Saturn is the ____________ planet from the Sun.",
-		"answer" : [
+		"answers" : [
 			{ "id" : 0, "text" : "Fourth" },
 			{ "id" : 1, "text" : "Sixth" },
 			{ "id" : 2, "text" : "Second" },
@@ -18,7 +18,7 @@
 	{
 
 		"question" : "Which image shows a close-up of Saturn",
-		"answer" : [
+		"answers" : [
 			{ "id" : 0, "image" : "images/close_up_01.jpg" },
 			{ "id" : 1, "image" : "images/close_up_02.jpg" },
 			{ "id" : 2, "image" : "images/close_up_03.jpg" },
@@ -34,7 +34,7 @@
 	{
 
 		"question" : "One year on Saturn is equivalent to how many years on Earth?",
-		"answer" : [
+		"answers" : [
 			{ "id" : 0, "text" : "12" },
 			{ "id" : 1, "text" : "6" },
 			{ "id" : 2, "text" : "29" },
@@ -50,7 +50,7 @@
 	{
 
 		"question" : "What is the name of Saturn's largest moon?",
-		"answer" : [
+		"answers" : [
 			{ "id" : 0, "text" : "Hercules" },
 			{ "id" : 1, "text" : "Europa" },
 			{ "id" : 2, "text" : "Goliath" },
@@ -69,7 +69,7 @@
 	{
 
 		"question" : "Saturn is visible from Earth without telescope",
-		"answer" : [
+		"answers" : [
 			{ "id" : 0, "text" : "True" },
 			{ "id" : 1, "text" : "False" }
 			
