@@ -244,5 +244,5 @@ body { background-color: #fff; padding: 20px; }
 }
 
 #myQuiz intro.inactive, #myQuiz.inactive.answered  {
-	left:1350px;
+	left:-1350px;
 }
