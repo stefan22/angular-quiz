@@ -21,9 +21,12 @@
 				<p class="btn" ng-click="activeQuestion = 0">Begin</p>
 			</div><!-- intro -->
 			
-			<div class="question answered" ng-repeat="myQuestion in myQuestions">
+			<div class="question answered 
+				{{ ($index === activeQuestion ? 'active' : 'inactive') }}" ng-repeat="myQuestion in myQuestions">
 				<p class="txt">{{ myQuestion.question }}</p>
-				<p class="ans" ng-repeat="Answer in myQuestions[$index].answers">
+				<p class="ans"
+				ng-click="selectAnswer($parent.$index, $index)" 
+				ng-repeat="Answer in myQuestions[$index].answers">
 					{{ Answer.text}}</p>
 				<div class="feedback">
 					<p>Your are <strong>correct</strong></p>
