@@ -21,7 +21,7 @@
 				<p class="btn" ng-click="activeQuestion=0">Begin</p>
 			</div><!-- intro -->
 			
-			<div class="question answered
+			<div class="question
 				{{ ($index === activeQuestion) ? 'active' : 'inactive' }}
 				{{ (myQuestion.questionState === 'answered') ? 'answered' : 'unanswered' }}"
 				ng-repeat="myQuestion in myQuestions">
