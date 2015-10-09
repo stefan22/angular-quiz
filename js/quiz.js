@@ -44,6 +44,10 @@
 
 		} //isCorrect
 
+		$scope.selectContinue = function() {
+			return $scope.activeQuestion += 1;
+		}
+
 
 	}]);
 	

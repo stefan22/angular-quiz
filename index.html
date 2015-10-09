@@ -40,8 +40,8 @@
 				<div class="feedback">
 					<p ng-show="myQuestion.correctness === 'correct' ">Your are <strong>correct</strong></p>
 					<p ng-show="myQuestion.correctness === 'incorrect'">Oops! That is not correct</p>
-					<p>Additional feedback</p>
-					<div class="btn">Continue</div>
+					<p>{{myQuestion.feedback}}</p>
+					<div class="btn" ng-click="selectContinue()">Continue</div>
 				</div><!-- feedback -->
 			
 			</div><!-- question -->
