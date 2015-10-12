@@ -51,6 +51,19 @@
 			return $scope.activeQuestion += 1;
 		}
 
+		$scope.createShareLinks = function(percentage) {
+			var url = 'http://codifydesign.com';
+
+			var emailLink = '<a class="btn email" href="#">Email a friend</a>';
+
+			var twitterLink = '<a class="btn twitter" target="_blank" href="#">Tweet your score</a>';
+
+			var newMarkup = emailLink + twitterLink;
+
+			return $sce.trustAsHtml(newMarkup);
+
+		}
+
 
 	}]);
 	
